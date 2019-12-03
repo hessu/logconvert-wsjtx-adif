@@ -12,6 +12,10 @@ do the conversion.
 As a minimum --mycall should be given. If --power is given, it is logged
 as the transmitter power (integer, watts).
 
+Requires python3 and the pytz module for timezone conversions.  On
+debian/ubuntu, "apt install python3-pytz" and elsewhere, "pip3 install
+pytz".
+
 
     usage: wsjtx-adif.py [-h] --mycall N0CALL [--tz Europe/Helsinki] [--in infile]
       [--out outfile] [--power 100]
